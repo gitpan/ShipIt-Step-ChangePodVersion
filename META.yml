@@ -16,9 +16,12 @@ name: ShipIt-Step-ChangePodVersion
 provides:
   ShipIt::Step::ChangePodVersion:
     file: lib/ShipIt/Step/ChangePodVersion.pm
-    version: 0.01
+    version: 0.02
 requires:
+  File::Find::Rule: 0
   ShipIt: 0.53
+  base: 0
+  strict: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
